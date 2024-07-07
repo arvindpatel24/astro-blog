@@ -1,0 +1,26 @@
+{
+  "name": "astro-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.11.4",
+    "astro-icon": "^1.1.0",
+    "postcss": "^8.4.39",
+    "postcss-preset-env": "^9.5.15",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.67"
+  }
+}
